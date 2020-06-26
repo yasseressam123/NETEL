@@ -1,0 +1,304 @@
+body{
+    margin: 70px 0  20px;
+    font-family:  sans-serif;
+    background-color: #101010;
+
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* header section */
+
+header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 510px;
+    padding: 0px 15px;
+    z-index: 11;
+    margin: 10px 0;
+}
+header .row{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    margin: 0 40px;
+    background-color: #202020;
+}
+header .brand-name a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+}
+header .navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header .navbar ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+header .navbar ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 60px;
+    color: #ffffff;
+    display: block;
+    font-weight: 400;
+    position: relative;
+    padding: 0px 15px;
+}
+header .navbar ul li a:hover{
+    background-color: #333333;
+}
+
+header .navbar ul li a.active{
+    background-color: #333333;
+    
+}
+
+/* home section */
+
+.home{
+    min-height: 100vh; 
+    background-image: url("https://imgix.bustle.com/rehost/2016/9/13/9d990235-f985-4e63-8a7f-248ffeb6e824.jpg?w=970&h=546&fit=crop&crop=faces&auto=format%2Ccompress&cs=srgb&q=70");
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+    position: relative;
+    
+    
+}
+.home .full-screen{
+    min-height: 100vh;
+}
+.home .home-content{
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.home .home-content .block{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 500px;
+    margin-top: 50px;
+    
+}
+
+.home .home-content .block h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0 ;
+    padding: 0;
+}
+
+/* card section */
+.card{
+    margin: 0 0 200px;
+    padding: 0px 200px;
+    position: absolute;
+    left: 0;
+    top: 650px;
+    z-index: 11;
+
+}
+.card .card-content{
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card .card-content .box{
+    flex: 0 0 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    text-align: center;
+    padding: 30px;
+
+}
+.orange{
+    background-color: #c14000                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ; 
+    /* c14000 */
+}
+.yellow{
+    background-color: #ffa500;
+}
+.green{
+    background-color: #009988;
+}
+.card .card-content .box h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    line-height: 32px;
+}
+.card .card-content .box p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 0 0 10px;
+}
+.card .card-content .box img{
+    height: 70px;
+    width: 70px;
+    padding: 18px;
+    border: 2px solid #ffffff;
+    border-radius:34px ;
+    margin: 10px;
+}
+/* about me section */
+.about-me{
+    padding: 350px 200px 100px;
+    display: block;
+}
+.about-me .about-content{
+    background-color: #191919;
+}
+.about-me .about-content .img{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.about-me .about-content .img img{
+    width: 100%;
+    display: block;
+}
+.about-me .about-content .text{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 30px;
+}
+.about-me .about-content .text h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+    color: #ffffff;
+}
+.about-me .about-content .text p{
+    font-size: 15px;
+    font-weight: 400;
+    /* line-height: 14px; */
+    color: #838383;
+    margin: 0 0 10px;
+}
+.p2{
+    padding: 0 0 20px;
+}
+.about-me .about-content .text .button{
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 12px 25px;
+    margin: 30px 0 0 0;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s ease;
+}
+.about-me .about-content .text .button:hover{
+    background-color: #ffffff;
+    color: #191919;
+    border-color: #191919;
+} 
+.lastestworks{
+    padding: 0 200px 100px;
+    text-align: center;
+}
+.lastestworks .section-title h1{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    color: #ffffff;
+}
+.lastestworks .section-title p{
+    padding: 0 200px;
+    color: #838383;
+}
+.lastestworks .lastestworks-content{
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 35px 0 50px;
+}
+ .lastestworks .lastestworks-content .box1{
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+} 
+ .lastestworks .lastestworks-content .box{
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+ .lastestworks .lastestworks-content .box .img{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+ }
+ .lastestworks .lastestworks-content .box1 .img1{
+     flex: 0 0 25%;
+    max-width: 25%;
+ }
+.lastestworks .lastestworks-content .box .img img{
+    width: 100%;
+    display: block;
+    transition: all .5s ease;
+}
+.lastestworks .lastestworks-content .box .img img:hover{
+    transform: scale(1.1);
+}
+.lastestworks .lastestworks-content .box1 .img1 img{
+    width: 100%;
+    display: block;
+    transition: all .5s ease;
+}
+.lastestworks .lastestworks-content .box1 .img1 img:hover{
+    transform: scale(1.1);
+}
+.lastestworks .btn{
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.lastestworks  .button{
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 12px 25px;
+    margin: 30px 0 0 0;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all .5s ease;
+}
+.lastestworks  .button:hover{
+    background-color: #ffffff;
+    color: #101010;
+    border-color: #101010;
+} 
