@@ -36,10 +36,20 @@ header .row{
     padding: 0 40px;
     margin: 0 40px;
     background-color: #202020;
+    border-left: 6px solid #d54ab6;
+}
+header .brand-name .dot{
+    height: 30px;
+    width: 30px;
+    background-color: #d54ab6;
+    border-radius: 50%;
+    display: inline-block;
+     position: absolute; 
 }
 header .brand-name a{
+    padding: 0 30px; 
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 500;
     color: #ffffff;
     text-transform: uppercase;
