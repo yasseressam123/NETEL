@@ -25,7 +25,8 @@ header{
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 510px;
+    top: 20px;
+    bottom: 560px;
     padding: 0px 15px;
     z-index: 11;
     margin: 10px 0;
@@ -87,13 +88,26 @@ header .navbar ul li a.active{
 
 .home{
     min-height: 100vh; 
-    background-image: url("https://imgix.bustle.com/rehost/2016/9/13/9d990235-f985-4e63-8a7f-248ffeb6e824.jpg?w=970&h=546&fit=crop&crop=faces&auto=format%2Ccompress&cs=srgb&q=70");
+    /* background-image: url("https://imgix.bustle.com/rehost/2016/9/13/9d990235-f985-4e63-8a7f-248ffeb6e824.jpg?w=970&h=546&fit=crop&crop=faces&auto=format%2Ccompress&cs=srgb&q=70"); */
+    /* background-size: cover;
+    background-position: center;
+    padding: 15px; */
+    /* https://www.businessrunway.co.za/wp-content/uploads/2019/06/business-background-check.jpg */
+    position: relative;   
+}
+/* .mySlides{
+    position: relative;
+} */
+.mySlides img{
     background-size: cover;
     background-position: center;
-    padding: 15px;
-    position: relative;
-    
-    
+    height: 100vh; 
+    /* display: flex; */
+    width: 100%;
+    /* position: relative; */
+}
+.container-home{
+    margin: 0;
 }
 .home .full-screen{
     min-height: 100vh;
@@ -108,26 +122,30 @@ header .navbar ul li a.active{
 .home .home-content .block{
     flex: 0 0 100%;
     max-width: 100%;
-    padding-left: 500px;
-    margin-top: 50px;
+    /* padding-left: 500px; */
+    /* margin-top: 50px; */
     
 }
 
-.home .home-content .block h1{
+.home .home-content .block .h1{
     color: #ffffff;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 600;
     margin: 0 ;
     padding: 0;
+    position: absolute;
+    top: 330px;
+    left: 500px;
 }
 
 /* card section */
 .card{
-    margin: 0 0 200px;
+    margin: 0 0 100px;
     padding: 0px 200px;
     position: absolute;
     left: 0;
     top: 650px;
+    bottom: 0px;
     z-index: 11;
 
 }
@@ -180,7 +198,7 @@ header .navbar ul li a.active{
 }
 /* about me section */
 .about-me{
-    padding: 350px 200px 100px;
+    padding: 300px 200px 100px;
     display: block;
 }
 .about-me .about-content{
